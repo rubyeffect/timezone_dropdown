@@ -1,8 +1,7 @@
 # TimezoneDropdown
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/timezone_dropdown`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+Hi guys, this gem helps you to add a dropdown for timezone and change the timezone 
+according to needs of user
 
 ## Installation
 
@@ -22,7 +21,45 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Include timezone.js in your appplication.js
+
+    //= require timezone_dropdown
+
+TODO: Add the below line where you want to add dropdown for time zone
+
+```view
+<select class="form-control" id="timezone"></select>
+```
+
+Add the below method in your controller with condition of your own for which you want the timezone to change.
+
+```
+around_action :set_time_zone
+
+   private
+
+   def set_time_zone
+     Time.use_zone(current_user.timezone) { yield }
+   end
+```
+For example you can use for a condition like this
+
+```
+ class ApplicationController < ActionController::Base
+  around_action :set_time_zone
+
+  def set_time_zone
+    if logged_in?
+      Time.use_zone(current_user.time_zone) { yield }
+    else
+      yield
+    end
+  end
+ end 
+```
+
+
+For any other Timezone related queries vist <a href="http://api.rubyonrails.org/classes/Time.html">here</a>
 
 ## Development
 
