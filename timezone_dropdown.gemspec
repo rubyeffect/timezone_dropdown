@@ -10,8 +10,8 @@ Gem::Specification.new do |spec|
   spec.email         = ["[shubham@rubyeffect.com]"]
 
   spec.summary       = %q{askc}
-  spec.description   = %q{This gem helps you to add a dropdown for timezone and change the timezone 
-according to needs of user}
+  spec.description   = "This gem helps you to add a dropdown for timezone and change the timezone 
+according to needs of user, from RubyEffect (http://www.rubyeffect.com)"
   spec.homepage      = "https://github.com/shubhs2050/timezone_dropdown"
   spec.license       = "MIT"
 
