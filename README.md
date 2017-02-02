@@ -76,3 +76,12 @@ Bug reports and pull requests are welcome on GitHub at https://github.com/[USERN
 
 The gem is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
 
+## About RubyEffect
+
+![RubyEffect](http://blog.rubyeffect.com/wp-content/uploads/2015/05/cropped-re_original_logo.png)
+
+RubyEffect builds intuitive, live and elegant software that solves real world problems. We love open source and it's community.
+
+Liked this gem? You may also like the articles we post on our [blog](http://blog.rubyeffect.com). Please do check
+
+We would love to work on your ideas and see them grow. Say hello @ http://rubyeffect.com/contact
