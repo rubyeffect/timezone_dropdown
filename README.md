@@ -78,9 +78,9 @@ The gem is available as open source under the terms of the [MIT License](http://
 
 ##Authored by: 
 
-Shubham, shubham@rubyeffect.com
+Shubham Srivastava (shubham@rubyeffect.com)
 
-Sakilam, sakilamsandeep@rubyeffect.com
+Sakilam Sandeep (sakilamsandeep@rubyeffect.com)
 
 ## About RubyEffect
 
